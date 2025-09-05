@@ -1,0 +1,65 @@
+.aulas {
+ 
+  margin: 0 auto;
+  padding: 0 5em ;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.aulas__titulo{
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.aulas-container {
+  display: flex;
+  flex-wrap: wrap;       
+  gap: 30px;
+  justify-content: center;
+}
+
+.aula {
+  flex: 1 1 45%;         
+  min-width: 280px;     
+  background: transparent;
+  text-align: left;
+}
+
+.aula .emoji {
+  font-size: 2rem;
+}
+
+.aula h3 {
+  color:var(--cor-verde-destaque);
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+.aula p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  font-size: 20px;
+  font-weight: 400;
+}
+.botao {
+  margin-top: 40px;
+ 
+}
+
+.btn {
+  display: inline-block;
+  background: #C6FF00;
+  color: #000;
+  padding: 15px 30px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #A4D400;
+}
+

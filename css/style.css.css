@@ -4,20 +4,22 @@
 
 @import url('cabecalho.css');
 @import url('banner.css');
+@import url('sobre.css');
+@import url('aulas.css');
 
 
-:root{
-        /*cores*/
-    --cor-header:#333333;
-    --cor-bg-light:#D9D9D9;
-    --cor-bg-dark:#0D0D0D;
-    --cor-verde-destaque:#A4DE02;
-      --cor-verde-hover:#ceff0c;
-    --cor-texto-light:#E0ECE4;
-    --cor-texto-dark:#3B3B3B;
-     --cor-texto-hover:#1c1c1c;
+:root {
+    /*cores*/
+    --cor-header: #333333;
+    --cor-bg-light: #D9D9D9;
+    --cor-bg-dark: #0D0D0D;
+    --cor-verde-destaque: #A4DE02;
+    --cor-verde-hover: #ceff0c;
+    --cor-texto-light: #E0ECE4;
+    --cor-texto-dark: #3B3B3B;
+    --cor-texto-hover: #1c1c1c;
 
 
-    --font-inter:  font-family: "Inter", sans-serif;
-    --fonter-Oswald:  font-family: "Oswald", sans-serif;
+    --font-inter: font-family: "Inter", sans-serif;
+    --fonter-Oswald: font-family: "Oswald", sans-serif;
 }
