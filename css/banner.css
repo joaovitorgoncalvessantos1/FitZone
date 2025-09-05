@@ -1,0 +1,40 @@
+.banner {
+  background-image: url(../assets/banner/figma.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+.conteudo {
+  height: 497px;
+  width: 840px;
+  padding: 5em 0 16px 5em;
+}
+.banner__titulo {
+  font-size: 85px;
+  font-family: var(--fonter-Oswald);
+  font-weight: bold;
+  color: var(--cor-texto-light);
+}
+.banner__destaque {
+  color: var(--cor-verde-hover);
+}
+.banner__paragrafo {
+  color: var(--cor-texto-light);
+  font-family: var(--font-inter);
+  font-size: 35px;
+  padding: 1em 0 2em 0;
+}
+.banner__link {
+  padding: 1em 3em;
+  border-radius: 32px;
+  background-color: var(--cor-verde-destaque);
+  color: var(--cor-texto-dark);
+  text-decoration: none;
+  font-size: 24px;
+}
+.banner__link:hover{
+    background-color: var(--cor-verde-hover);
+    color: var(--cor-texto-hover);
+}
+
