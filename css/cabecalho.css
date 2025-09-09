@@ -4,7 +4,7 @@
 .navegacao{
     display: flex;
     align-items: center;
-    padding: 1.5em 0 1.5em 1.5em;
+    padding: .5em 0 .5em .5em;
     justify-content:  space-between;
     
 }
@@ -36,5 +36,7 @@
     padding: .3em;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
+
+
 
 

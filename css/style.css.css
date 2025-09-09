@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
@@ -6,10 +7,13 @@
 @import url('banner.css');
 @import url('sobre.css');
 @import url('aulas.css');
+@import url('planos.css');
+@import url('rodape.css');
+
 
 
 :root {
-    /*cores*/
+    /* cores */
     --cor-header: #333333;
     --cor-bg-light: #D9D9D9;
     --cor-bg-dark: #0D0D0D;
@@ -19,7 +23,10 @@
     --cor-texto-dark: #3B3B3B;
     --cor-texto-hover: #1c1c1c;
 
-
-    --font-inter: font-family: "Inter", sans-serif;
-    --fonter-Oswald: font-family: "Oswald", sans-serif;
+    /* fontes */
+    --font-inter: "Inter", sans-serif;
+    --font-oswald: "Oswald", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
 }

@@ -1,0 +1,31 @@
+.rodape{
+        background-color: var(--cor-header);
+        display: flex;
+        flex-direction: column;
+        padding: 2em 0;
+        gap: 1em;
+}
+.lista__rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.item__rodape{
+    font-family: var(  --font-oswald);
+    font-size: 1.1em;
+    font-weight: 400;
+    padding: .3em;
+    color: var(--cor-texto-light);
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.item__rodape:hover{
+    background-color:   var(  --cor-verde-destaque);
+    padding: .3em;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}

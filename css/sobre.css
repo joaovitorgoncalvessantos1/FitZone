@@ -1,4 +1,4 @@
-.sobre{
+.sobre {
     display: flex;
     flex-direction: column;
     background-color: var(--cor-bg-dark);
@@ -8,7 +8,7 @@
     text-align: center;
     padding: 2em;
     font-size: 40px;
-    font-family: var(--fonter-Oswald);
+    font-family: var(--font-inter);
     font-weight: bold;
     text-transform: uppercase;
     color: var(--cor-texto-light);
@@ -24,10 +24,11 @@
 
 .esquerdo__paragrafo {
     padding: 0 4em;
-    font-size: 30px;
+    font-size: 2em;
     line-height: 1.3em;
-
     color: var( --cor-texto-light);
+    font-family: var(--font-inter);
+    font-weight: 300;
 }
 
 .direita {
@@ -39,9 +40,10 @@
 }
 .direita__paragrafo {
     padding: 0 4em;
-    font-size: 30px;
+    font-size: 2em;
     line-height: 1.3em;
     color: var( --cor-texto-light);
     font-family: var(--font-inter);
-    font-weight: 100;
+    font-weight: 300;
 }
+
