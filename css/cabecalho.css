@@ -52,6 +52,12 @@
    .navegacao .navegacao__item{
       display: none;
     }
+    .navegacao__img{
+        padding: 0em 4em;
+    }
+    .navegacao__item{
+        font-size: .9em;
+    }
 }
 
 

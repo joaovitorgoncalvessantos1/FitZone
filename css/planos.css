@@ -80,3 +80,21 @@
 .botao-plano:hover {
     background-color: var(--cor-verde-hover);
 }
+@media (max-width: 768px) {
+    .pacotes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 568px){
+        .pacotes{
+        flex-direction: column;
+}
+}
+@media (max-width: 390px){
+    .pacotes{
+        flex-direction: column;
+    }
+  
+}

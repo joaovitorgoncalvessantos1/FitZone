@@ -7,7 +7,7 @@
 }
 .conteudo {
   height: 497px;
-  width: 840px;
+  width: 0 auto;
   padding: 5em 0 16px 5em;
 }
 .banner__titulo {
