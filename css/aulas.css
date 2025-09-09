@@ -65,4 +65,10 @@ padding: 3em;
 .btn:hover {
   background: #A4D400;
 }
+@media (max-width: 768px){
+  .aulas-container{
+    display: flex;
+    align-items: center;
+  }
+}
 

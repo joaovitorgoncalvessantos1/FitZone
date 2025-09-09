@@ -47,3 +47,24 @@
     font-weight: 300;
 }
 
+@media (max-width: 819px) {
+    .esquerdo,.direita{
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+    }
+    .esquerdo img{
+        display: none;
+    }
+    .direita img{
+        display: none;
+    }
+}
+@media (max-width: 390px){
+    .titulo {
+        font-size: 10px;
+    }
+    .direita__paragrafo,.esquerdo__paragrafo{
+        font-size: 1em;
+    }
+}

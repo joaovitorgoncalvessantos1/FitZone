@@ -40,6 +40,27 @@
   background-color: var(--cor-verde-hover);
   color: var(--cor-texto-hover);
 }
-
+@media (max-width: 768px) {
+  .banner {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+  }
+  .conteudo {
+    height: 297px;
+    width:440px;
+    font-weight: 400px;
+  }
+  .banner__titulo {
+    font-size: 2.7em;
+  }
+   .banner__paragrafo{
+    font-size: 1.5em;
+   }
+   .banner__link{
+    padding: .7em 1.5em;
+    font-size: 1.3em;
+   }
+}
 
 

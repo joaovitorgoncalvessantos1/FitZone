@@ -37,6 +37,21 @@
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
-
+@media (max-width: 768px) {
+    .navegacao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .item{
+        font-size: 1.5em;
+        padding: 2em 0;
+    }
+}
+@media (max-width: 490px){
+   .navegacao .navegacao__item{
+      display: none;
+    }
+}
 
 
